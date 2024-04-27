@@ -20,8 +20,8 @@ This code appears to be written for an Arduino board and utilizes the Firebase R
 
 **Global Variables:**
 
-- `statuss`: Integer variable (purpose unclear).
-- `out`: Integer variable (purpose unclear).
+- `status`: Integer variable (purpose Light).
+- `out`: Integer variable (purpose Light).
 - `ntpUDP`: Instance of `WiFiUdp` for time synchronization.
 - `timeClient`: Instance of `NTPClient` for getting time from NTP server.
 - Arrays for weekdays and months.
