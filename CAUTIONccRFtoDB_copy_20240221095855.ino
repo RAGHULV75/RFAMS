@@ -23,12 +23,12 @@ String months[12]={"January", "February", "March", "April", "May", "June", "July
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 //  your network credentials
-#define WIFI_SSID "HEXAGON"
+#define WIFI_SSID ""
 #define WIFI_PASSWORD ""
 //  Firebase project API Key
-#define API_KEY "AIzaSyD18li3xpV-caVuNTPCBS8e4NLmdGDUc6Y"
+#define API_KEY ""
 //  RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://bu-it-project-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define DATABASE_URL "" 
 // Firebase Data object
 FirebaseData fbdo;
 FirebaseAuth auth;
@@ -92,7 +92,7 @@ uid ="";
 }
 bool isAuthorized(String uid)
 {
-  String authorizedIds [] = { "c3ef8b0d","73e681a6"};
+  String authorizedIds [] = { "Verified Card UID 1 "," Verified Card UID 2"};
   for (int i  = 0; i< sizeof(authorizedIds)/sizeof(authorizedIds[0]); i++)
   {
     if (uid == authorizedIds [i])
@@ -143,10 +143,10 @@ void sendToFirebase (String uid)
       a = "before_or_after";
     }
     if (uid =="c3ef8b0d"){
-      uid = "22csef23";
+      uid = "REG_Number 1";
     }
     else if (uid =="73e681a6"){
-      uid = "22csef24";
+      uid = "REG_Number 2";
     }
   Serial.println(a);
   // rfid set to id // Staff
