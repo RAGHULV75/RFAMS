@@ -1,6 +1,12 @@
 # RFAMS
 RF ID Based Attendance Management Using Firebase Realtime Database and Android Application
 
+![student page](https://github.com/RAGHULV75/RFAMS/assets/168255383/c7d2c10e-a1e4-46ca-a928-0e12162e573a)
+
+More on PORTFOLIO Section
+
+https://raghulv7244.000webhostapp.com/
+
 This code appears to be written for an Arduino board and utilizes the Firebase Realtime Database (RTDB) to track student attendance. Here's a breakdown of the code:
 
 **Libraries:**
